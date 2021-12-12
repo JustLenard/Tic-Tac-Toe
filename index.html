@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tic-Tac-Toe</title>
+		<link href='style.css' rel='stylesheet' type=text/css>
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1 class="title">Tic Tac Toe</h1>
+		<div class="container">
+			<header>
+				<div class="options">
+					<div class="dificulty-box">
+						<div class="dificulty-text">Dificulty</div>
+						<div class="dificulty-choices">
+							<select id="dropdown-options">
+								<option value="easy">Easy</option>
+								<option value="normal">Normal</option>
+								<option value="impossible">Impossible</option>
+							</select>
+						</div>
+					</div>
+					<div class="marker-box">
+						<div class="marker-text">Marker</div>
+						<div class="marker-choices">
+							<div class="fancy-button marker active">
+								x
+								<div id="circle"></div>
+							</div>
+							<div class="fancy-button marker">
+								○
+								<div id="circle"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main>
+				<div>
+					<div class="playing-field">
+						<div class="pos-1 position"></div>
+						<div class="pos-2 position"></div>
+						<div class="pos-3 position"></div>
+						<div class="pos-4 position"></div>
+						<div class="pos-5 position"></div>
+						<div class="pos-6 position"></div>
+						<div class="pos-7 position"></div>
+						<div class="pos-8 position"></div>
+						<div class="pos-9 position"></div>
+					</div>
+				</div>
+			</main>
+			<div class="fancy-button restart">
+				<div id="circle"></div>
+				<div class="text">RESTART</div>
+			</div>
+		</div>
+		<div class="end-game-modal">
+			<div class="winning-message"></div>
+			<div class="fancy-button restart">
+				<div id="circle"></div>
+				<div class="text">Restart</div>
+			</div>
+		</div>
+		<footer>
+			Project done by JustLenard for the TheOdinProject curriculum.
+		</footer>
+	</body>
+</html>
