@@ -1,10 +1,8 @@
 # Tic-Tac-Toe
 
-Single player game of Tic Tac Toe.
+A single-player Tic-Tac-Toe game with the ability to choose between 3 difficulties and playing as 'o' or 'x'.  
 
-The highlight of the project is the minimax ai (on which I've spent what feels like a eternity to figure out) which looks throu all the possible outcomes of the current match and chooses the most optimal way to play making IMPOSSIBLE to beat.
-
-Very proud of myself for figuring out how all of this works.
+The highlight of the project is the minimax algorithm which makes the ai unbeatable at the highest difficulty.  
 
 Live link:  
 https://justlenard.github.io/Tic-Tac-Toe/
